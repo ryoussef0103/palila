@@ -1,0 +1,81 @@
+.palila__header  {
+    margin-top: -60px;
+    width: 100vw; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/palilaPoster.svg');
+    text-align: center;
+    background-size: contain;
+    /* background-position: center; */
+    
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+ @media (max-width: 600px) {
+    .palila__header {
+        background-image: url('../../assets/600PxMax.svg');
+        padding-top: 20rem;
+        margin-top: -93px;
+        height: 115vh;
+    } 
+    .palila__header-content {
+        padding-top:  rem;
+    } 
+ } 
+
+/* @media (min-width: 667px) {
+    .palila__header {
+        margin-top: -60px;
+        width: 98vw;
+        height: 60vh;
+    }
+} */
+
+/* @media (max-width: 666px) {
+    .palila__header {
+        margin-top: 0px;
+        width: 100vw;
+        height: 50vh;
+    }
+} */
+
+/* @media (max-width: 120px) {
+    .palila__header {
+        margin-top: -60px;
+        width: 100vw;
+        height: 100vh;
+    }
+}  */
+/* .palila__header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 800px;
+} */
+
+ /* @media screen and (max-width: 1050px) {
+    .palila__header {
+        width: 100%;
+        height: 100%;
+        min-height: 650px;
+     
+}}
+
+@media screen and (max-width: 700px) {
+    .palila__header {
+        width: 100vw;
+        height: 40vh;
+
+}}
+
+@media screen and (max-width: 550px) {
+    .palila__header {
+
+        min-height: 650px;
+   
+}}  */
+
