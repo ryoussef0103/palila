@@ -1,43 +1,83 @@
-.palila__header  {
+.palila__header {
+  background-image: url('../../assets/DesktopView.svg');
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+ 
+ .palila__header  {
     margin-top: -60px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100vw;  */
-    /* height: 100vh; */
+    width: 100vw; 
+    height: 100vh;
     
     background-image: url('../../assets/palilaPoster.svg');
     background-repeat: no-repeat;
-    /* text-align: center; */
+    text-align: center;
     background-size: center;
-    /* background-position: center; */
+    background-position: center;
     
 
-}
+} 
+
+
+/* @media screen and (min-width: 992px) {
+  .palila__header {
+      background-image: url('../../assets/DesktopView.svg');
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+
+  .palila__header-content {
+      margin: 0 0 3rem;
+  }
+  
+} */
 
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-@media screen and (min-width: 1281px) {
+/* @media screen and (min-width: 1281px) {
     .palila__header {
         background-image: url('../../assets/DesktopView.svg');
         height: 1186px;
         width: 1600px;
     }
 
-    /* .palila__header-content {
+    .palila__header-content {
         margin: 0 0 3rem;
-    } */
+    }
     
-}
+} */
 
 
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+/* @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .palila__header {
         background-image: url('../../assets/DesktopView.svg');
         text-align: center;
@@ -45,17 +85,17 @@
         height: 115vh;
     }
 
-    /* .palila__header-content {
+    .palila__header-content {
         margin: 0 0 3rem;
-    } */
+    }
     
-}
+} */
 
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
- @media (min-width: 768px) and (max-width: 1024px){
+ /* @media (min-width: 768px) and (max-width: 1024px){
     .palila__header {
         background-image: url('../../assets/MobileLandscapeView.svg');
         text-align: center;
@@ -65,14 +105,14 @@
     .palila__header-content {
         padding-top:  -5rem;
     } 
- } 
+ }  */
 
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
- @media (min-width: 768px) and (max-width:1024px) and (orientation: landscape){
+ /* @media (min-width: 768px) and (max-width:1024px) and (orientation: landscape){
     .palila__header {
         background-image: url('../../assets/MobileLandscapeView.svg');
         text-align: center;
@@ -82,33 +122,33 @@
     .palila__header-content {
         padding-top:  -5rem;
     } 
- } 
+ }  */
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
-@media (min-width: 481px) and (max-width: 767px){
+/* @media (min-width: 481px) and (max-width: 767px){
 .palila__header {
     background-image: url('../../assets/MobileLandscapeView.svg');
     text-align: center;
     margin-top: -93px;
     height: 115vh;
 }
-}
+} */
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-@media (min-width: 320px) and (max-width: 480px){
+/* @media (min-width: 321px) and (max-width: 480px){
   .palila__header {
     background-image: url('../../assets/Iphone5.svg');
     text-align: center;
     margin-top: -93px;
     height: 115vh;
   }
-}
+} */
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
