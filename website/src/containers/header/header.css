@@ -23,6 +23,7 @@
     .palila__header {
         background-image: url('../../assets/DesktopView.svg');
         height: 1186px;
+        width: 1600px;
     }
 
     /* .palila__header-content {
@@ -38,7 +39,10 @@
 */
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .palila__header {
-        background-image: url('../../assets/TabletView.svg');
+        background-image: url('../../assets/DesktopView.svg');
+        text-align: center;
+        margin-top: -93px;
+        height: 115vh;
     }
 
     /* .palila__header-content {
@@ -105,5 +109,18 @@
     height: 115vh;
   }
 }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (max-width: 320px) {
+    .palila__header {
+      background-image: url('../../assets/Iphone5.svg');
+      text-align: center;
+      margin-top: -93px;
+      height: 115vh;
+    }
+  }
   
 
