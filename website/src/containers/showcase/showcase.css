@@ -1,0 +1,18 @@
+.palila__showcase-content {
+    display: flex;
+    flex-direction: column;
+
+    /* padding: 2rem; */
+   
+}
+
+.palila__showcase-content h2 {
+    flex: 1;
+    max-width: 100px;
+    min-width: 120px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

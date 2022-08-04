@@ -1,17 +1,18 @@
 import React from 'react'
 // import palilaPoster from '../../assets/palilaPoster.svg'
 import './header.css'
-import Background from '../../assets/DesktopView.svg'
+
 
 
 
 const Header = () => {
   return (
-    <div className="palila__header text-center text-white d-flex">
-      <div className="palila__header-content d-flex justify-content-center align-items-center">
+    <div className="palila__header section__padding ">Header
+      <div className="palila__header-container ">
         <h1>Text</h1>
       </div>
       </div>
+      
  
 
    

@@ -17,7 +17,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="palila__navbar navbar-light navbar-expand-lg fixed-top">
+    <div className="palila__navbar">
         <div className="palila__navbar-links">
             <div className="palila__navbar-links_logo">
                 <h1>Logo</h1>

@@ -1,8 +1,10 @@
 import React from 'react'
+import'./showcase.css'
 
 const Showcase = () => {
   return (
-    <div>Showcase</div>
+    <div className="palila__showcase-content">Showcase
+         </div>
   )
 }
 

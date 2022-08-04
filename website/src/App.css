@@ -5,8 +5,14 @@
   scroll-behavior: smooth;
 }
 
+.background__poster {
+  background-color: yellow;
+
+}
+
 body {
   background: var(--color-bg);
+  overflow-x: hidden;
 }
 
 a {
