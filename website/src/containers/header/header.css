@@ -2,7 +2,7 @@
   background-image: url('../../assets/palilaPoster.svg');
   background-size:  contain ;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-attachment: fixed;
   /* margin-top: -8%; */
   /* padding-top: 70,71%; */
   /* width: 100%; */
@@ -50,7 +50,7 @@
     }
 
   
-/* .palila__header-content {
+.palila__header-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,9 +58,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-} */
+}
 
-/* .text-white {
+.text-white {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
@@ -75,6 +75,6 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
-} */
+}
 
 

@@ -105,12 +105,12 @@
 
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
+    padding: .5rem;
     position: absolute;
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 2px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
@@ -123,120 +123,6 @@
 .palila__navbar-menu_container-links-signIn {
     display: none;
 }
-
-/* Tablets */
-/* @media screen and (min-width: 1281px) {
-    .palila__navbar-links_container {
-        display: flex;
-    }
-    .palila__navbar-menu {
-        display: none;
-    }
-} */
-/* Tablets */
-/* @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .palila__navbar-links_container {
-        display: flex;
-    }
-    .palila__navbar-menu {
-        display: none;
-    }
-} */
-/* Tablets */
-/* @media (min-width: 768px) and (max-width: 1024px) {
-    .palila__navbar-links_container {
-        display: none;
-    }
-    .palila__navbar-menu {
-        display: none;
-    }
-} */
-/* Tablets */
-/* @media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
-    .palila__navbar-links_container {
-        display: none;
-    }
-    .palila__navbar-menu {
-        display: flex;
-    }
-} */
-
-/* Medium sized screens */
-/* @media (min-width: 481px) and (max-width: 767px) {
-    .palila__navbar {
-        padding: .5rem 1rem;
-    }
-    .palila__navbar-links_container {
-        display: none;
-    }
-    .palila__navbar-menu {
-        display: flex;
-    }
-    .palila__navbar-menu_container-links-signIn {
-        display: block;
-    }
-    .palila__navbar-menu_container {
-        top: 20px;
-    }
-    .palila__navbar-signIn {
-        display: none;
-    }
-
-}
-
-@media (min-width: 321px) and (max-width: 480px) {
-    .palila__navbar {
-        padding: .5rem 1rem;
-    }
-    .palila__navbar-links_container {
-        display: none;
-    }
-    .palila__navbar-menu {
-        display: flex;
-    }
-    .palila__navbar-menu_container-links-signIn {
-        display: block;
-    }
-    .palila__navbar-menu_container {
-        top: 20px;
-    }
-    .palila__navbar-signIn {
-        display: none;
-    }
-    
-}
-
-
-@media (max-width: 320px) {
-    .palila__navbar {
-        padding: .5rem 1rem;
-    }
-
-    .palila__navbar-signIn {
-        display: none;
-    }
-
-    .palila__navbar-links_container {
-        display: none;
-    }
-    .palila__navbar-menu {
-        display: flex;
-    }
-
-    .palila__navbar-menu_container {
-        top: 20px;
-    }
-
-    .palila__navbar-menu_container-links-signIn {
-        display: block;
-    }
-} */
-
-
-
-
-
-
 
 
 /* Tablets */
