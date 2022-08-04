@@ -9,16 +9,16 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <div className="background__poster">
-          <Navbar />
-          <Header />
-          <Routes>
-            <Route path="/over" element={<Over />} />
-            <Route path="/prijzen" element={<Prijzen />} />
-            <Route path="/bestellen" element={<Bestellen />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
+        <Navbar />
+        <Header />
+
+        <Routes>
+          <Route path="/over" element={<Over />} />
+          <Route path="/prijzen" element={<Prijzen />} />
+          <Route path="/bestellen" element={<Bestellen />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
         <Showcase />
         <Examples />
         <Services />

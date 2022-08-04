@@ -13,17 +13,17 @@
 .palila__header{
   display: flex;
   /* margin-top: 80px; */
-  /* background-image: url('../../assets/flowers.svg'); */
+  background-image: url('../../assets/1550x900.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   
   width: 100%;
   height: 40vh;
-  /* position: fixed; */
+  position: fixed;
 }
 
-.palila__header:after{
+/* .palila__header:after{
 content: "";
 position: absolute;
 top: 0;
@@ -31,11 +31,11 @@ left: 0;
 
 width: 100%;
 height: 100%;
-background: darkblue;
+background:  #c6c0e4;
 opacity: .7;
 z-index: -1;
 
-}
+} */
 
 .palila__header-container {
   padding-top: 8%;
