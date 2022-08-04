@@ -7,15 +7,8 @@ import Background from '../../assets/DesktopView.svg'
 
 const Header = () => {
   return (
-    <div className="palila__header text-center text-white d-flex" 
-    style={{backgroundImage: `url(${Background})`,
-    backgroundPosition: 'center center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    height: '1276px'
-  }} 
-    >
-      <div className="palila__header-content">
+    <div className="palila__header text-center text-white d-flex">
+      <div className="palila__header-content d-flex justify-content-center align-items-center">
         <h1>Text</h1>
       </div>
       </div>
