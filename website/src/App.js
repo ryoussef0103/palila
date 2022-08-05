@@ -18,7 +18,6 @@ const App = () => {
           <Route path="/bestellen" element={<Bestellen />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
         <Showcase />
         <Examples />
         <Services />
