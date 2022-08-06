@@ -1,12 +1,43 @@
-import React from 'react'
 import'./showcase.css'
+import React, { useState, useCallback } from "react";
+
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
+import { photos } from "../../photos/Photos.jsx"
+
 
 const Showcase = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
   return (
     <div className="palila__showcase-content">
       <div className="palila__showcase-wrapper">
-        <h2>Text details</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente ut nulla et possimus. Doloribus quaerat mollitia odio nulla! Dignissimos sequi aperiam fugiat aut magni repellendus doloremque optio, explicabo accusamus?</p>
+      <Gallery photos={photos} onClick={openLightbox} />
+      <ModalGateway>
+        {viewerIsOpen ? (
+          <Modal onClose={closeLightbox}>
+            <Carousel
+              currentIndex={currentImage}
+              views={photos.map(x => ({
+                ...x,
+                srcset: x.srcSet,
+                caption: x.title
+              }))}
+            />
+          </Modal>
+        ) : null}
+      </ModalGateway>
+    
          </div>
   </div>
   )

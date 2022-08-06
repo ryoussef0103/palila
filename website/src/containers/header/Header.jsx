@@ -4,7 +4,6 @@ import './header.css'
 
 
 
-
 const Header = () => {
   return (
     <div className="palila__header">
