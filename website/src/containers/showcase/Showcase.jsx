@@ -1,44 +1,38 @@
 import'./showcase.css'
-import React, { useState, useCallback } from "react";
+import React  from "react";
+import Bg from '../../assets/MobileLandscapeView.svg'
+import flowers from '../../assets/flowers.svg'
 
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "../../photos/Photos.jsx"
 
+
+// const images = [
+//  Bg, flowers, Bg, flowers
+// ]
 
 const Showcase = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
+  // const onImageClick = () => {
+  //   try {
 
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+
+  //   }
+  // }
+ 
   return (
-    <div className="palila__showcase-content">
-      <div className="palila__showcase-wrapper">
-      <Gallery photos={photos} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+    <div className="palila__showcase-container">
     
-         </div>
+        <img src={Bg} alt=""></img>
+        <img src={flowers} alt=""></img>
+        <img src={Bg} alt=""></img>
+        <img src={flowers} alt=""></img>
+        <img src={Bg} alt=""></img>
+        <img src={flowers} alt=""></img>
+        <img src={Bg} alt=""></img>
+        <img src={flowers} alt=""></img>
+      
+      {/* <div className="palila__showcase-container">
+      
+         </div> */}
   </div>
   )
 }
