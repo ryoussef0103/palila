@@ -1,35 +1,19 @@
 import'./showcase.css'
+import'../../imageslider/imageSlider.css'
 import React  from "react";
-import Bg from '../../assets/MobileLandscapeView.svg'
-import flowers from '../../assets/flowers.svg'
+// import Bg from '../../assets/MobileLandscapeView.svg'
+// import flowers from '../../assets/flowers.svg'
+import ImageSlider from '../../imageslider/ImageSlider';
+import { SliderData } from '../../imageslider/SliderData';
 
 
-
-// const images = [
-//  Bg, flowers, Bg, flowers
-// ]
-
-const Showcase = () => {
-
-  // const onImageClick = () => {
-  //   try {
-
-
-  //   }
-  // }
- 
+const Showcase = () => { 
+  
   return (
     <div className="palila__showcase-container">
-    
-        <img src={Bg} alt=""></img>
-        <img src={flowers} alt=""></img>
-        <img src={Bg} alt=""></img>
-        <img src={flowers} alt=""></img>
-        <img src={Bg} alt=""></img>
-        <img src={flowers} alt=""></img>
-        <img src={Bg} alt=""></img>
-        <img src={flowers} alt=""></img>
+      <ImageSlider slides={SliderData} />
       
+
       {/* <div className="palila__showcase-container">
       
          </div> */}
