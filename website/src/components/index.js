@@ -1,5 +1,4 @@
 export { default as ContactInfo } from "./contactInfo/ContactInfo";
-export { default as Examples } from "./examples/Examples";
 export { default as FooterInfo } from "./footerInfo/FooterInfo";
 export { default as Navbar } from "./navbar/Navbar";
 export { default as ServicesContent } from "./servicesContent/ServicesContent";

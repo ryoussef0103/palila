@@ -12,11 +12,6 @@ const Showcase = () => {
   return (
     <div className="palila__showcase-container">
       <ImageSlider slides={SliderData} />
-      
-
-      {/* <div className="palila__showcase-container">
-      
-         </div> */}
   </div>
   )
 }

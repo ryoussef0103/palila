@@ -1,5 +1,5 @@
 import { Contacten, Footer, Header, Services, Showcase } from "./containers";
-import { Examples, Navbar } from "./components";
+import { Navbar } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Bestellen, Contact, Over, Prijzen } from "./pages";
 import "./App.css";
@@ -19,11 +19,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Showcase />
-        <Examples />
         <Services />
-
         <Contacten />
-
         <Footer />
       </div>
     </Router>
