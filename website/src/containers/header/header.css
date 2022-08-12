@@ -5,7 +5,7 @@
   justify-content: center;
   padding: 2rem;
   margin-top: -5rem;
-  background-image: url('../../assets/1550x900.svg');
+  background-image: url('../../assets/OriginalSize.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -13,8 +13,8 @@
   width: 90%;
   height: 40vh;
   position: fixed;
-  top: 35%;
-  left: 50%;
+  margin-top: 25vh;
+  margin-left: 50vw;
   transform: translate(-50%, -50%);
 }
 
