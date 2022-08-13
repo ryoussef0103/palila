@@ -9,6 +9,8 @@
     position: fixed;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid yellow;
-    top: 300vh;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    top: 170vh;
+    
 }
