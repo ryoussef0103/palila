@@ -48,43 +48,6 @@ z-index: -1;
 }
 
 
-
-
-
-/* Nest Hub and Nest Hub max */
-/* /* @media screen and (min-width: 1000px) and (min-height: 714px) and (max-height: 800px) {
-  .palila__header {
-    background-size: cover;
-    background-image: url('../../assets/1550x900.svg');
-    text-align: center;
-    margin-top: 0px;
-    height: 100vh;
-      
-  }
-  } 
-
-@media screen and (min-width: 1000px) and (max-height: 714px){
-  .palila__header {
-    background-size: cover;
-    background-image: url('../../assets/1550x900.svg');
-    text-align: center;
-    margin-top: 0px;
-    height: 100vh;
-      
-  }
-  } */
-  /* Microsoft Lumia 550 */
-  /* @media screen and (min-width: 640px) and (max-height: 453px){
-    .palila__header {
-      background-size: cover;
-      background-image: url('../../assets/1000x500.svg');
-      text-align: center;
-      margin-top: 0px;
-      height: 100vh;
-        
-    }
-    } */
-
   
 .palila__header-content {
   display: flex;
@@ -113,16 +76,24 @@ z-index: -1;
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1387px)  {
   .palila__header {
-    background-image: url('../../assets/768px.svg');
+    background-image: url('../../assets/2500px.png');
+    
+  }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1386px) {
+  .palila__header {
+    background-image: url('../../assets/1200px.png');
     
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .palila__header {
-    background-image: url('../../assets/768px.svg');
+    background-image: url('../../assets/1200px.png');
     
   }
 }
