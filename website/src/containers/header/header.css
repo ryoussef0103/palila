@@ -143,21 +143,28 @@ z-index: -1;
 
 @media screen and (min-width: 481px) and (max-width: 592px) {
   .palila__header {
-    background-image: url('../../assets/591px.svg');
+    background-image: url('../../assets/592px.png');
     
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 401px) and (max-width: 480px) {
   .palila__header {
-    background-image: url('../../assets/480px.svg');
+    background-image: url('../../assets/480px.png');
+    
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 400px) {
+  .palila__header {
+    background-image: url('../../assets/400px.png');
     
   }
 }
 
 @media screen and (max-width: 320px)  {
   .palila__header {
-    background-image: url('../../assets/320px.svg');
+    background-image: url('../../assets/320px.png');
     
   }
 }
