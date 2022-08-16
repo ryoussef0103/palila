@@ -18,7 +18,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="palila__navbar">
+    <div className="palila__navbar fixed-top">
         <div className="palila__navbar-links">
             <div className="palila__navbar-links_logo">
                 <h1>Logo</h1>
@@ -27,10 +27,10 @@ const Navbar = () => {
                 <Menu/>
             </div>
         </div>
-        <div className="palila__navbar-signIn">
+        {/* <div className="palila__navbar-signIn">
             <p>Log in</p>
             <button type="button">Registeren</button>
-        </div>
+        </div> */}
         <div className="palila__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="black" size={27} onClick={() => setToggleMenu(false)} />
@@ -39,10 +39,10 @@ const Navbar = () => {
         <div className="palila__navbar-menu_container scale-up-center">
           <div className="palila__navbar-menu_container-links">
           <Menu />
-          <div className="palila__navbar-menu_container-links-signIn">
+          {/* <div className="palila__navbar-menu_container-links-signIn">
         <p>Log in</p>
         <button type="button">Registreren</button>
-      </div>
+      </div> */}
       </div>
       </div>
    

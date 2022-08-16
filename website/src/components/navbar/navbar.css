@@ -12,7 +12,7 @@
 .palila__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -32,7 +32,11 @@
 
 
 
-.palila__navbar-links_logo {
+.palila__navbar-links_logo h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+ 
     margin-right: 2rem;  
 }
 
@@ -54,11 +58,11 @@
     flex-direction: row;
 }
 
-.palila__navbar-signIn {
+/* .palila__navbar-signIn {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
 .palila__navbar-links_container p, .palila__navbar-signIn p, .palila__navbar-menu_container p {
     color: black;
@@ -72,7 +76,7 @@
     cursor: pointer;
 }
 
-.palila__navbar-signIn button, .palila__navbar-menu_container button {
+/* .palila__navbar-signIn button, .palila__navbar-menu_container button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
@@ -84,7 +88,7 @@
     border: 0;
     outline: 0;
     cursor: pointer;
-}
+} */
 
 .palila__navbar-menu {
     margin-left: 1rem;
@@ -131,6 +135,12 @@
         display: none;
     }
     .palila__navbar-links_container p, .palila__navbar-signIn p, .palila__navbar-menu_container p{
+        font-size: 40px;
+        line-height: 120px;
+        margin: 0 1rem;
+    }
+    .palila__navbar-signIn button, .palila__navbar-menu_container button {
+        line-height: 35px;
         font-size: 30px;
     }
 }
