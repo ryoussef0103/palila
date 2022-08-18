@@ -3,10 +3,17 @@
     justify-content: space-between;
     align-items: center;
     
-    padding: .5rem 1rem;
-    /* background-color: rgba(255,255,255,.7); */
+    padding: 10px;
+    
     background-color: transparent;
     font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.palila__navbar.active {
+
+background-color: rgba(255,255,255,.7);
+
+
 }
 
 .palila__navbar-links {

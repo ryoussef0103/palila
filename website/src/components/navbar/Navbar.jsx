@@ -16,9 +16,21 @@ const Menu = () => (
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const [navbar, setnavbar] = useState(false);
+
+    const changeBackground = () => {
+      if(window.scrollY >= 10) {
+        setnavbar(true);
+      } else {
+        setnavbar(false);
+      }
+    }
+
+    window.addEventListener('scroll', changeBackground)
 
   return (
-    <div className="palila__navbar fixed-top">
+    // <div className="palila__navbar active fixed-top">
+    <div className={navbar ? "palila__navbar active fixed-top" : 'palila__navbar fixed-top'}>
         <div className="palila__navbar-links">
             <div className="palila__navbar-links_logo">
                 <h1>Logo</h1>
@@ -27,7 +39,7 @@ const Navbar = () => {
                 <Menu/>
             </div>
         </div>
-        {/* <div className="palila__navbar-signIn">
+        {/* <div className="palila__na vbar-signIn">
             <p>Log in</p>
             <button type="button">Registeren</button>
         </div> */}
