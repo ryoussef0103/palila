@@ -21,6 +21,7 @@ background-color: rgba(255,255,255,.7);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: .5rem 20rem;
 }
 
 
@@ -41,6 +42,9 @@ background-color: rgba(255,255,255,.7);
 
 .palila__navbar-links_logo {
     flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     /* justify-content: flex-start; */
     /* text-align: start; */
  

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-scroll';
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import './navbar.css'
 
@@ -34,6 +33,7 @@ const Navbar = () => {
         <div className="palila__navbar-links">
             <div className="palila__navbar-links_logo">
                 <h1>Logo</h1>
+            
             </div>
             <div className="palila__navbar-links_container">
                 <Menu/>
