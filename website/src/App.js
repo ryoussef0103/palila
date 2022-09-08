@@ -1,4 +1,4 @@
-import { Contacten, Footer, Header, Services, Showcase } from "./containers";
+import { Footer, Header, Services, Showcase } from "./containers";
 import { Navbar } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Bestellen, Contact, Over, Prijzen } from "./pages";
@@ -19,8 +19,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Showcase />
-        {/* <Services /> */}
-        <Contacten />
+        <Services />
         <Footer />
       </div>
     </Router>
