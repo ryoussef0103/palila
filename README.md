@@ -1,2 +1,0 @@
-# palila
-karen site

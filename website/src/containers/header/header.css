@@ -24,21 +24,29 @@
 
 
 .palila__header-container {
-  padding-top: 8%;
+  /* padding-top: -15vh; */
   font-size: 20px;
   color: white;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: column;
+}
 
-  margin-right: 5rem;
+.palila__header-container-text {
+  flex: 1;
+  padding: 0vh;
+}
+
+.palila__header-container-text h1{
+  padding: 30vh;
+
 }
 
 
+
   
-.palila__header-content {
+/* .palila__header-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +54,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-}
+} */
 
 .text-white {
   --bs-text-opacity: 1;

@@ -10,9 +10,17 @@ import { SliderData } from '../../imageslider/SliderData';
 const Showcase = () => { 
   
   return (
+    <div className="palila__showcase">
+      <div className="palila__showcase-text">
+        <h1>Onze boeketten</h1>
+        <p>Hier zijn een aantal voorbeelden te zien</p>
+        
+      </div>
+      
     <div className="palila__showcase-container">
       <ImageSlider slides={SliderData} />
-  </div>
+      </div>
+      </div>
   )
 }
 
